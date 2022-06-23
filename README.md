@@ -1,3 +1,8 @@
+# Projet Aston - Angular
+
+## Journal de bord
+Création de l'architecture et des components selon les instructions
+
 # Mediatheque
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
