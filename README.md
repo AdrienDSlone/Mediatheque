@@ -2,7 +2,7 @@
 
 ## Journal de bord
 23/06/22 12:00 - Création de l'architecture et des components selon les instructions
-23/06/22 2300 - Clone local
+23/06/22 2300 - Clone local et chocolat
 
 # Mediatheque
 
