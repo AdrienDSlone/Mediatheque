@@ -10,6 +10,9 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,6 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatToolbarModule,
+    MatButtonModule
     BrowserAnimationsModule
   ],
   providers: [],
