@@ -6,10 +6,7 @@
 3. open terminal and run "npm install", then wait until process is done
 
 ## Run the server
-1. run "ng serve -o", URL is : http://localhost:4200/home
-
-## Journal de bord
-23/06/22 12:00 - Création de l'architecture et des components selon les instructions
+1. run "ng serve -o", URL of the website is : http://localhost:4200/home
 
 # Mediatheque
 
