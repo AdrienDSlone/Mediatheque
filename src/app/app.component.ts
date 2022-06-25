@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FilmHttpService } from './services/film-http.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Mediatheque';
+  films: any = []
+  constructor(private service:FilmHttpService){
+    this.service.findAll().subscribe((data)=> this.films = data);
+  }
 }
