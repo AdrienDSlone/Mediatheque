@@ -12,6 +12,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list'; 
+
 import { ProductListComponent } from './pages/products-page/product-list/product-list.component';
 import { ProductCardComponent } from './pages/products-page/product-card/product-card.component';
 
@@ -31,6 +34,8 @@ import { ProductCardComponent } from './pages/products-page/product-card/product
     AppRoutingModule,
     MatToolbarModule,
     MatButtonModule,
+    MatCardModule,
+    MatListModule,
     BrowserAnimationsModule
   ],
   providers: [],
