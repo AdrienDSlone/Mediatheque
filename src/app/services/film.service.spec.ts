@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { AlbumHttpService } from './album-http.service';
+import { FilmService } from './film.service';
 
-describe('AlbumHttpService', () => {
-  let service: AlbumHttpService;
+describe('FilmService', () => {
+  let service: FilmService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AlbumHttpService);
+    service = TestBed.inject(FilmService);
   });
 
   it('should be created', () => {
