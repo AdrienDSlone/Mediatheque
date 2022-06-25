@@ -10,6 +10,7 @@ const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: "full"},
   {path: 'home', component: HomePageComponent},
   {path: 'products', component: ProductsPageComponent},
+  {path: 'products/:type/:id', component: ProductsPageComponent},
   // les doubles étoiles correspond au "par defaut", elle doivent être placées à la fin des routes
   {path: '**', component: NotFoundComponent}
 ];
