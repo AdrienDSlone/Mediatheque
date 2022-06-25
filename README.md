@@ -1,7 +1,12 @@
 # Projet Aston - Angular
 
-## Journal de bord
-23/06/22 12:00 - Création de l'architecture et des components selon les instructions
+## Installation
+1. clone repository
+2. delete the ../package-lock.json
+3. open terminal and run "npm install", then wait until process is done
+
+## Run the server
+1. run "ng serve -o", URL of the website is : http://localhost:4200/home
 
 # Mediatheque
 
