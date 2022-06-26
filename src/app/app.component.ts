@@ -5,6 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
-  title = 'Mediatheque';
+  // films: any = []
+  // constructor(private service:FilmService){
+  //   this.service.findAll().subscribe((data)=> {this.films = data;});
+  constructor() {
+  }
 }

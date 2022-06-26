@@ -1,9 +1,29 @@
 # Projet Aston - Angular
 
-## Journal de bord
-23/06/22 12:00 - Création de l'architecture et des components selon les instructions
+# Installation
 
-# Mediatheque
+1. clone repository
+
+## I. Install nodes-modules
+
+1. open project in VSCode
+2. delete the ../package-lock.json
+3. open Gitbash terminal in VSCode and run "npm install", then wait until process is done
+4. rename this terminal tab : "node"
+
+## II. Install json-server
+1. open a new terminal tab
+2. run "npm install -g json-server"
+3. then run "json-server --watch db.json"
+4. rename this tab "json-server"
+5. 5. your json db is reachable here : http://localhost:3000/
+6. on the URL you should read : "Resources : /films & albums
+
+## III. Run the Mediatheque 
+1. in node terminal tab
+2. run "ng serve -o", URL of the website is : http://localhost:4200/home
+
+# Mediatheque is based on
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 

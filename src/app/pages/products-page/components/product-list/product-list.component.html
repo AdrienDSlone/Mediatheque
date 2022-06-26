@@ -1,0 +1,9 @@
+
+<mat-list role="list">
+    <app-product-card
+      *ngFor="let product of productsList" 
+      [product]="product"
+      (delete)="onDelete($event)">
+    </app-product-card>
+</mat-list>
+  
