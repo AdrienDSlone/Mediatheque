@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+// import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http'
 
@@ -16,8 +17,11 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list'; 
 
-import { ProductListComponent } from './pages/products-page/product-list/product-list.component';
-import { ProductCardComponent } from './pages/products-page/product-card/product-card.component';
+import { ProductListComponent } from './pages/products-page/components/product-list/product-list.component';
+import { ProductCardComponent } from './pages/products-page/components/product-card/product-card.component';
+import { ProductDetailComponent } from './pages/products-page/pages/product-detail/product-detail.component';
+import { ProductEditComponent } from './pages/products-page/pages/product-edit/product-edit.component';
+import { ProductComponent } from './pages/products-page/pages/product/product.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +32,10 @@ import { ProductCardComponent } from './pages/products-page/product-card/product
     HomePageComponent,
     ProductsPageComponent,
     ProductListComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    ProductDetailComponent,
+    ProductEditComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

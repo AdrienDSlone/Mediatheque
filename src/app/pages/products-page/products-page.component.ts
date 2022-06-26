@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Route, Router,RouterPreloader } from '@angular/router';
 import { Observable } from 'rxjs';
-import Film from 'src/app/models/film.model';
-import Album from 'src/app/models/album.model';
-import { FilmService } from 'src/app/services/film.service';
-import { AlbumService } from 'src/app/services/album.service';
+import Film from 'src/app/pages/products-page/models/film.model';
+import Album from 'src/app/pages/products-page/models/album.model';
+import { FilmService } from 'src/app/pages/products-page/services/film.service';
+import { AlbumService } from 'src/app/pages/products-page/services/album.service';
 
 @Component({
   selector: 'app-products-page',
