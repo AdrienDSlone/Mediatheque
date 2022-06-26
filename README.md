@@ -2,7 +2,7 @@
 
 # Installation
 
-1. clone repository
+1. of course : clone this repository
 
 ## I. Install nodes-modules
 
