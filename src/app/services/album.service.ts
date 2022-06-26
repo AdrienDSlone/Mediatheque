@@ -2,7 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
-import Album from '../models/albumModel.model';
+import Album from '../models/album.model';
 
 @Injectable({
   providedIn: 'root'
