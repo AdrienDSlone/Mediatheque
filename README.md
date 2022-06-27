@@ -10,6 +10,8 @@
 2. delete the ../package-lock.json
 3. open Gitbash terminal in VSCode and run "npm install", then wait until process is done
 4. rename this terminal tab : "node"
+5. in package.json in scripts, line 10 : add 
+   1. "start:db": "json-server --watch db/db.json --port3000"
 
 ## II. Install json-server
 1. open a new terminal tab
