@@ -17,7 +17,7 @@ export class ProductCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  get titre() {return this.product.titre}
+  get titre() {return this.product.nom}
   
 
 }

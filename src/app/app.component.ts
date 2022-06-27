@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FilmService } from './pages/products-page/services/film.service';
+import { AlbumService } from './pages/products-page/services/album.service';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +9,9 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  // films: any = []
-  // constructor(private service:FilmService){
-  //   this.service.findAll().subscribe((data)=> {this.films = data;});
-  constructor() {
+  films: any = [];
+  albums: any = [];
+  constructor(private service:FilmService,private album:AlbumService){
+    // this.service.findAll().subscribe((data)=> {this.films = data;});
   }
 }

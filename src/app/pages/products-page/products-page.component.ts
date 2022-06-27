@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Route, Router,RouterPreloader } from '@angular/router';
 import { Observable } from 'rxjs';
+
+// sert à fabriquer des objets
 import Film from 'src/app/pages/products-page/models/film.model';
 import Album from 'src/app/pages/products-page/models/album.model';
 import { FilmService } from 'src/app/pages/products-page/services/film.service';
@@ -13,10 +15,10 @@ import { AlbumService } from 'src/app/pages/products-page/services/album.service
 })
 export class ProductsPageComponent implements OnInit {
 
-  product!: Film | Album;
-
+  // sert à fabriquer des objets
   films: Film[] = [];
   albums: Album[] = [];
+
   constructor(
     private router: Router,
     private route: ActivatedRoute,
