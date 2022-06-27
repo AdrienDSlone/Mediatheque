@@ -18,8 +18,8 @@
 2. run "npm install -g json-server"
 3. then run "json-server --watch db/db.json"
 4. rename this tab "json-server"
-5. 5. your json db is reachable here : http://localhost:3000/
-6. on the URL you should read : "Resources : /films & albums
+5. your json db is reachable here : http://localhost:3000/
+   1. on the page, you should read : "Resources : /films & albums
 
 ## III. Run the Mediatheque 
 1. in node terminal tab
