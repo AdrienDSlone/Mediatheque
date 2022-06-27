@@ -9,7 +9,7 @@ import Product from '../../models/product.model';
 })
 export class ProductCardComponent implements OnInit {
 
-  @Input() product: Product = new Product();
+  @Input() product: any;
   @Output() delete= new EventEmitter();
 
   constructor() { }
